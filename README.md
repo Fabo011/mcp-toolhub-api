@@ -14,6 +14,6 @@ uvicorn server:app --reload
 ```
 
 ## API
-Fetch all tools: http://localhost:9000/tools
+Fetch all tools: http://localhost:8000/tools
 
 Fetch specific tools: http://localhost:8000/tools?categories=github,wikipedia
