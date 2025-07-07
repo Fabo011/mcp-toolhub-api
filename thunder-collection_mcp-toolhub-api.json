@@ -1,0 +1,42 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "mcp-toolhub-api",
+    "collectionId": "922fb84e-2e31-46f0-af50-59ae42681b32",
+    "dateExported": "2025-07-07T13:34:13.318Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e43e0cfe-6158-4fe1-8425-c923d08f89b9",
+            "colId": "922fb84e-2e31-46f0-af50-59ae42681b32",
+            "containerId": "",
+            "name": "get_tools",
+            "url": "http://localhost:8000/tools",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-07-07T13:14:18.872Z",
+            "modified": "2025-07-07T13:15:32.263Z",
+            "headers": []
+        },
+        {
+            "_id": "a9df4963-5e08-4d4e-a846-b724ac5118c6",
+            "colId": "922fb84e-2e31-46f0-af50-59ae42681b32",
+            "containerId": "",
+            "name": "get_specific_tools",
+            "url": "http://localhost:8000/tools?categories=wikipedia",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-07-07T13:32:46.766Z",
+            "modified": "2025-07-07T13:34:01.797Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "categories",
+                    "value": "wikipedia",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "TZGneRfbiUU1XwgihdEjO26pRqUJwpk2Xi5DW30jWeu1jMUp2nDdWDHAIbgObfVO6CMQ7wdXmX0ej5O_iROwjw"
+}
