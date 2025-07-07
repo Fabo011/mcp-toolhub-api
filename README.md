@@ -12,6 +12,10 @@ pip3 install -r requirements.txt
 ```
 uvicorn server:app --reload
 ```
+On specific port:
+```
+uvicorn server:app --reload --port 9000
+```
 
 ## API
 Fetch all tools: http://localhost:8000/tools
